@@ -1,5 +1,5 @@
 @echo off
-title WinRAR Activation Script v1.0
+title WinRAR Activation Script v1.1.1 Release Candidate 1
 setlocal
 set "batch_dir=%~dp0"
 set "program=WinRAR.exe"
@@ -7,7 +7,7 @@ set "file_to_open=rarkey.rar"
 set "error_script=ErrMsgBox.vbs"
 set "temp_script=%temp%\script.bat"
 echo ##############################################################################################################
-echo                                         WinRAR Activation Script v1.0 
+echo                                        WinRAR Activation Script v1.1.1 
 echo ##############################################################################################################
 echo.
 echo 1. Execute the script and activate/patch WinRAR
