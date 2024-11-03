@@ -24,7 +24,7 @@ if "%choice%"=="1" (
         echo Creating temporary script for further cleanup...
         echo @echo off > "%temp_script%"
         echo timeout /t 2 /nobreak > nul >> "%temp_script%"
-        echo del /f /q "script.bat" "WRAS_v1.0.exe" >> "%temp_script%"
+        echo del /f /q "script.bat" "WRAS_v1.1.1-rc1.exe" >> "%temp_script%"
         start "" "%temp_script%"
     ) else (
         cscript //nologo "%error_script%"
